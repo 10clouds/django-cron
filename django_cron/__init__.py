@@ -3,7 +3,6 @@ from datetime import timedelta
 import traceback
 import time
 
-from django_cron.models import CronJobLog
 from django.conf import settings
 from django.utils.timezone import now as utc_now, localtime, is_naive
 from django.db.models import Q
